@@ -16,6 +16,7 @@ def fac(i):
     if(i == 1):
         return 1
     else:
+        #recursive case
         return i * fac(i -1)
 
 
