@@ -12,7 +12,7 @@ def get_smallest_num(arr):
             smallest_index = i
     return smallest_index
 
-def insertion_sort(arr):
+def selection_sort(arr):
     newArr = []
     for i in range(len(arr)):
         smallest = get_smallest_num(arr)
@@ -22,4 +22,4 @@ def insertion_sort(arr):
 
 arr_test = [5, 3, 2, 10]
 
-print(insertion_sort(arr_test))
+print(selection_sort(arr_test))
